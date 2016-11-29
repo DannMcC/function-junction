@@ -90,7 +90,7 @@ const reverse = (str) => {
   */
 
 const findLongestWord = (str) => {
-  var longestWord = str.split(' ').sort(function (a, b) { return b.length - a.length })
+  let longestWord = str.split(' ').sort(function (a, b) { return b.length - a.length })
   return longestWord[0]
   // const words = phrase.split(' ')
   // return words.sort()
